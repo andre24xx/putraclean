@@ -1,0 +1,84 @@
+/*Table*/
+.tblth {
+    text-align: center;
+    background: #eee;
+}
+.tbl {
+    width: 100%;
+    border-collapse: collapse;
+}
+.tblth,
+.tbltd {
+    border: 1px solid #dddddd;
+    padding: 10px;
+}
+.tblth {
+    text-align: center;
+}
+.tbltd {
+    text-align: left;
+    font-size: 16px;
+}
+.tblnum {
+    text-align: center;
+}
+
+/* Section 2nd */
+.ffthwrp {
+    flex: 1 1 100%;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    cursor: default;
+    padding-bottom: 5em;
+}
+.tleffthwrp {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    letter-spacing: 1px;
+    width: 100%;
+    margin: 30px 0 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.tleffthwrp > .lnebtm {
+    margin-top: 8px;
+}
+.descffthwrp {
+    text-align: center;
+    width: 100%;
+    padding: 25px 10px;
+    color: #555;
+    font-size: 18px;
+}
+.wabtnfth {
+    display: block;
+    margin: 0 auto;
+    background: #128C7E;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    border-radius: 20px;
+    box-shadow: 0px 2px 0px 0px #4a3e8f, inset 0px 3px 7px rgb(255 255 255 / 70%);
+    padding: 0 5px;
+}
+.waicnfth {
+    flex: 0 1 70px;
+    font-size: 35px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wabtntxt {
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    color: #101010;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
