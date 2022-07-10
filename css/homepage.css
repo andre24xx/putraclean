@@ -1,0 +1,167 @@
+.thrdwrp,
+.frthwrp,
+.ffthwrp {
+    flex: 1 1 100%;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    cursor: default;
+}
+.topscndwrp {
+    border-bottom-left-radius: 50px;
+    overflow: hidden;
+    flex: 1 1 100%;
+}
+.tlebottthrdwrp {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    letter-spacing: 1px;
+}
+.bottthrdwrp {
+    flex: 1 1 100%;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 15px;
+    justify-content: space-between;
+}
+.topthrdwrp {
+    flex: 1 1 100%;
+    padding: 40px 25px 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.tlebottthrdwrp {
+    flex: 1 1 100%;
+    text-align: center;
+}
+.cardx {
+    flex: 0 1 47%;
+    box-shadow: rgba(0, 0, 0, 0.38) 0px 24px 20px 0px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    position: relative;
+    padding-bottom: 50px;
+    cursor: default;
+}
+.tlex {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    padding: 10px 0;
+}
+.descx {
+    padding: 0 10px 10px;
+    font-size: 14px;
+    color: #666;
+    text-align: justify;
+}
+.linkx {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    position: absolute;
+    bottom: 15px;
+    margin: 0 auto;
+    width: 100%;
+}
+.linkx > a {
+    background: var(--main);
+    color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+.linkx > a:hover {
+    background: #2d499d;
+}
+.topfrthwrp {
+    margin: 20px 0 30px;
+    text-align: center;
+    width: 100%;
+}
+.tlefrthwrp {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    letter-spacing: 1px;
+}
+.descfrthwrp {
+    color: #555;
+}
+.bottfrthwrp {
+    padding: 0 20px;
+    color: #555;
+}
+.lstfrthwrp {
+    padding-bottom: 15px;
+}
+.tleffthwrp {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    letter-spacing: 1px;
+    width: 100%;
+    margin: 30px 0 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.tleffthwrp > .lnebtm {
+    margin-top: 8px;
+}
+.descffthwrp {
+    text-align: center;
+    width: 100%;
+    padding: 25px 10px;
+    color: #555;
+    font-size: 18px;
+}
+.ffthwrp {
+    padding-bottom: 50px;
+}
+.wabtnfth {
+    display: block;
+    margin: 0 auto;
+    background: #128C7E;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    border-radius: 20px;
+    box-shadow: 0px 2px 0px 0px #4a3e8f, inset 0px 3px 7px rgb(255 255 255 / 70%);
+    padding: 0 5px;
+}
+.waicnfth {
+    flex: 0 1 70px;
+    font-size: 35px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wabtntxt {
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    color: #101010;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* Wide Screen */
+@media (min-width: 830px) {
+    .cardx {
+        flex: 0 1 30%;
+    }
+    .thrdwrp {
+        padding-top: 2em;
+    }
+    .frthwrp {
+        margin: 3em 0;
+        justify-content: center;
+    }
+}
