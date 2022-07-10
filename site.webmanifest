@@ -1,0 +1,31 @@
+{
+    "short_name": "Putra Clean",
+    "name": "Jasa servis bersih cuci panggilan perabotan rumah kantor apartemen kos kota Surabaya Gresik Sidoarjo Krian | Home Cleaning Service | Putra Clean",
+    "icons": [
+        {
+            "src": "/favicon-16x16.png",
+            "type": "image/png",
+            "sizes": "16x16"
+        },
+        {
+            "src": "/favicon-32x32.png",
+            "type": "image/png",
+            "sizes": "32x32"
+        },
+        {
+            "src": "/android-chrome-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "/",
+    "background_color": "#4169E1",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#4169E1"
+}
