@@ -1,6 +1,8 @@
 (function( $ ) {
 
     $(function() {
+        
+        alert('h');
 
         /**
          * @fn  Fire if Element Has Ready
